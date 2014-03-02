@@ -1,0 +1,36 @@
+
+@import "compass";
+@import "breakpoint";
+@import "singularitygs";
+
+@import "../../variables/**/*";
+
+
+.l-page{
+  margin: 0 auto;
+  @include breakpoint($tab,true) {
+    width: $tab;
+  }
+  @include breakpoint($desk,true) {
+    width: $desk;
+  }
+  @include breakpoint($touch) {
+    bacground:blue;
+  }
+}
+
+@include breakpoint($tab,true){
+
+
+  .l-content {
+    @include grid-span(12,1)
+  }
+}
+
+@include breakpoint($desk,true){
+
+
+  .l-content {
+    @include grid-span(12,1)
+  }
+}
