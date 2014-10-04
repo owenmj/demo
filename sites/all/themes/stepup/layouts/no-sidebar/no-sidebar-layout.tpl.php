@@ -1,4 +1,3 @@
-TEST - NO SIDEBAR
 <div class="l-page">
 
   <header class="l-header" role="banner">
