@@ -19,9 +19,9 @@ regions[footer]         = Footer
 plugins[panels][layouts] = panels/layouts
 plugins[panels][styles] = panels/styles
 
-; Information added by Drupal.org packaging script on 2014-02-22
-version = "7.x-4.2+2-dev"
+; Information added by Drupal.org packaging script on 2014-08-20
+version = "7.x-4.2+8-dev"
 core = "7.x"
 project = "omega"
-datestamp = "1393105751"
+datestamp = "1408523936"
 

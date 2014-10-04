@@ -1,28 +1,23 @@
 name = Sidebar
-description = Sidebar first
-base theme = omega
-template = sidebar-layout
-
+description = Single sidebar layout - First Sidebar and Content
+template=sidebar-layout
 engine = phptemplate
 core = 7.x
 
-; Stylesheets
-stylesheets[all][] = css/sidebar.normalize.css
-stylesheets[all][] = css/sidebar.hacks.css
-stylesheets[all][] = css/sidebar.styles.css
-stylesheets[all][] = css/didebar.no-query.css
-
 ; Regions
 regions[branding]       = Branding
-regions[navigation]     = Navigation bar
 regions[header]         = Header
-regions[hero]           = Hero
+regions[navigation]     = Navigation
 regions[highlighted]    = Highlighted
 regions[help]           = Help
 regions[content]        = Content
-regions[sidebar_first]  = First sidebar
+regions[sidebar_first]  = First Sidebar
 regions[footer]         = Footer
 
-; Styles
-stylesheets[all][] = css/layouts/sidebar/sidebar.layout.css
-stylesheets[all][] = css/layouts/sidebar/sidebar.layout.no-query.css
+stylesheets[all][]= css/layouts/sidebar/sidebar.layout.css
+stylesheets[all][]= css/layouts/sidebar/sidebar.layout.no-query.css
+
+; Plugins
+plugins[panels][layouts] = panels/layouts
+plugins[panels][styles] = panels/styles
+

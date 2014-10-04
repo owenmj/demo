@@ -10,9 +10,9 @@
 ; instead run omega.make from the Omega theme directory.
 ;
 ; To run this file with 'drush make' you first have to navigate into your theme.
-; Normally, this would be 'sites/all/themes/stepup'.
+; Normally, this would be 'sites/all/themes/iergo'.
 ;
-; $ cd sites/all/themes/stepup
+; $ cd sites/all/themes/iergo
 ;
 ; Now you can invoke 'drush make' using the following command:
 ;
